@@ -11,25 +11,21 @@ Throughout this repository, you'll cultivate a deeper understanding of:
 By mastering the basics of Lightning Web Components, you'll lay the foundation for creating intuitive, dynamic, and responsive Salesforce user interfaces. This knowledge solidifies your path in evolving as a full-stack Salesforce developer, ready to craft end-to-end solutions that captivate users and drive business results.
 
 ## Setup
-[Beginner Setup Overview Video](https://vimeo.com/839597882/46fc06d93e)
+[Setup Overview](https://learn.cloudcodeacademy.com/courses/salesforce-developer-kickstart-program/lectures/47317682)
 
-[Intermediate Setup Overview Video](https://vimeo.com/847130413/955b8bdbe2)
-
-## Getting Started Checklist
+## Setup Checklist
 1. Create/Configure a trailhead playground or developer org to do your work throughout this program.
 2. Install Visual Studio Code from [here](https://code.visualstudio.com/download).
 3. Install Salesforce Extension Pack in Visual Studio Code. This can be done by searching 'Salesforce Extension Pack' in the Extensions view in VS Code and clicking Install.
-4. Authorize your org in Visual Studio Code. Press `Ctrl + Shift + P` to open the command palette and type 'SFDX: Authorize an Org', then press Enter. Follow the steps in the browser to log in to your org, then return to VS Code.
-5. Make sure to save and deploy your changes into Salesforce from your local machine. This can be done through the command pallet or right clicking the file you want to deploy and using the option `SFDX: Deploy this source to org`
+4. Authorize your org in Visual Studio Code. Press `Ctrl/Cmd + Shift + P` to open the command palette and type 'SFDX: Authorize an Org', then press Enter. Follow the steps in the browser to log in to your org, then return to VS Code.
+5. Save and deploy your changes into Salesforce from your local machine. This can be done through the command pallet or right-clicking the file you want to deploy and using the option `SFDX: Deploy this source to org`
 
-## Running the Test Classes
-
-To run the test classes:
-
-1. Open the command palette with `Ctrl + Shift + P`.
-2. Type 'SFDX: Invoke Apex Tests...', and press Enter.
-3. In the 'Select Test Class' input, select the test class you want to run and press Enter.
-4. The test results will appear in the Output panel at the bottom of the screen. You can switch to the 'Test' tab in this panel to see a summary of the test run.
+## Getting Started
+1. Navigate to the folder force-app/main/default/ and deploy the metadata to your Salesforce org. Right-click on the folder and select `SFDX: Deploy Source to Org`.
+2. Review the files provided including the test class to understand the challenges.
+3. Update the code and deploy it to your Salesforce org.
+4. Run the test class to validate your code. Use `Ctrl/Cmd + Shift + P` to open the command palette and type 'SFDX: Run Apex Tests', then press Enter. You can also use `Run All Test` or `Run Test` on the test class.
+5. Push your changes to your GitHub repository and submit the link to the assignment in the submission form in Slack.
 
 ## Resources
 
